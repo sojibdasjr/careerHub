@@ -9,9 +9,6 @@ const Header = () => {
       </li>
 
       <li>
-        <NavLink to="/jobs">Jobs</NavLink>
-      </li>
-      <li>
         <NavLink to="/appilied">Applied Jobs</NavLink>
       </li>
       <li>
@@ -19,6 +16,9 @@ const Header = () => {
       </li>
       <li>
         <NavLink to="/blogs">Blogs</NavLink>
+      </li>
+      <li>
+        <NavLink to="/jobs">Jobs</NavLink>
       </li>
     </>
   );
@@ -49,13 +49,18 @@ const Header = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <a className="btn btn-ghost text-2xl font-bold">
+          <h1>
+            <span className="text-red-400"> Career</span>
+            <span>Hub</span>
+          </h1>
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn">Start Applying</a>
       </div>
     </div>
   );
