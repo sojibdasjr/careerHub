@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className=" flex items-center bg-slate-100">
+    <div className=" md:flex items-center bg-slate-100 pt-5">
       <div className="w-2/3 mx-5">
         <h1 className="text-5xl font-bold">
           One Step <br /> Closer To Your <br />{" "}
@@ -21,7 +21,7 @@ const Hero = () => {
           </Link>
         </h1>
       </div>
-      <div className="w-2/1 mx-5">
+      <div className="md:w-2/1 mx-5">
         <img src={hero} alt="" />
       </div>
     </div>
