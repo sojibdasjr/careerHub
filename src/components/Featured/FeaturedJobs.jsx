@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Featured from "./Featured";
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = () => {
   const [jobs, setJobs] = useState([]);
@@ -17,11 +18,16 @@ const FeaturedJobs = () => {
           need. Its your future
         </small>
       </div>
-      <div className="grid md:grid-cols-2 items-center gap-2 mx-5 mb-2">
+      <div className="grid md:grid-cols-2 items-center gap-2 mx-5 my-5">
         {jobs.map((job) => (
           <Featured key={job.id} job={job}></Featured>
         ))}
       </div>
+      <Link>
+        <h1 className="text-center p-2 bg-sky-400 w-40 rounded my-5 mx-auto">
+          Show All Jobs
+        </h1>
+      </Link>
     </div>
   );
 };
