@@ -20,10 +20,10 @@ const Featured = ({ job }) => {
       <h1 className="font-bold text-2xl tracking-wide">{job_title}</h1>
       <h1 className="opacity-70">{company_name}</h1>
       <div>
-        <button className="p-1 border border-sky-500 bg-sky-100 text-sm my-1 ">
+        <button className="p-1 border border-sky-400 bg-sky-100 text-sm my-1 ">
           {job_time}
         </button>
-        <button className="p-1 border border-sky-500 bg-sky-100 text-sm my-1 ms-4 ">
+        <button className="p-1 border border-sky-400 bg-sky-100 text-sm my-1 ms-4 ">
           {job_time2}
         </button>
       </div>
@@ -38,7 +38,9 @@ const Featured = ({ job }) => {
         </div>
       </div>
       <Link to={`/job/${id}`}>
-        <button className="p-2 my-3 bg-sky-400 rounded">View Details</button>
+        <button className="p-2 my-3 bg-sky-300 focus:bg-sky-500 rounded">
+          View Details
+        </button>
       </Link>
     </div>
   );
