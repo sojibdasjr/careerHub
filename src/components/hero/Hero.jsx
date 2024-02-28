@@ -8,14 +8,14 @@ const Hero = () => {
       <div className="w-2/3 mx-5">
         <h1 className="text-5xl font-bold">
           One Step <br /> Closer To Your <br />{" "}
-          <span className="text-red-400">Dream Job</span>
+          <span className="text-sky-400">Dream Job</span>
           <p className="text-sm my-2 opacity-75">
             Explore thousands of job opportunities with all <br /> the
             information you need. Its your future. Come find it. Manage all{" "}
             <br /> your job application from start to finish.
           </p>
           <Link>
-            <button className="p-3  rounded-md text-xl bg-red-400">
+            <button className="p-3  rounded-md text-xl bg-sky-400">
               Get Started
             </button>
           </Link>

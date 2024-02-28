@@ -15,7 +15,7 @@ const Featured = ({ job }) => {
   } = job;
   return (
     <div className=" p-5  border">
-      <img className="max-h-45 max-w-32 " src={image} alt="" />
+      <img className=" w-40 " src={image} alt="" />
       <h1 className="font-bold text-2xl tracking-wide">{job_title}</h1>
       <h1 className="opacity-70">{company_name}</h1>
       <div>
@@ -37,7 +37,7 @@ const Featured = ({ job }) => {
         </div>
       </div>
       <Link>
-        <button className="p-2 my-3 bg-red-400 rounded">View Details</button>
+        <button className="p-2 my-3 bg-sky-400 rounded">View Details</button>
       </Link>
     </div>
   );

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/232N4q2/image-1.jpg",
+    "image": "https://i.ibb.co/dLPBdq7/1.jpg",
     "job_title": "Software Engineer",
     "company_name": "Tech Solutions Inc.",
     "job_time": "Full time",
@@ -24,7 +24,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/nB7MycZ/image-2.jpg",
+    "image": "https://i.ibb.co/dKfKyHy/2.jpg",
     "job_title": "Marketing Manager",
     "company_name": "Global Marketing Agency",
     "job_time": "Remote",
@@ -47,7 +47,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/0hksXYZ/image-3.jpg",
+    "image": "https://i.ibb.co/BBmy030/3.jpg",
     "job_title": "Data Scientist",
     "company_name": "Data Analytics Ltd.",
     "job_time": "Full time",
@@ -70,7 +70,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/swPq0Xp/image-4.jpg",
+    "image": "https://i.ibb.co/L5d9ZSh/4.jpg",
     "job_title": "Graphic Designer",
     "company_name": "Creative Studios LLC",
     "job_time": "Full time",
@@ -93,7 +93,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/B4drD0N/image-5.jpg",
+    "image": "https://i.ibb.co/h8nq4Ry/5.jpg",
     "job_title": "Financial Analyst",
     "company_name": "Finance Plus Inc.",
     "job_time": "Full time",
@@ -116,7 +116,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/DQZZCKs/image-6.jpg",
+    "image": "https://i.ibb.co/6RT64C8/6.jpg",
     "job_title": "Human Resources Manager",
     "company_name": "HR Solutions Ltd.",
     "job_time": "Full time",
@@ -139,7 +139,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.ibb.co/8B1b5HF/image-7.png",
+    "image": "https://i.ibb.co/f1qmWgX/7.jpg",
     "job_title": "Product Manager",
     "company_name": "Tech Innovations Co.",
     "job_time": "Full time",
@@ -162,7 +162,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.ibb.co/LnCdBRb/image-8.jpg",
+    "image": "https://i.ibb.co/pjpXszJ/8.jpg",
     "job_title": "Customer Service Representative",
     "company_name": "Customer Care Solutions Inc.",
     "job_time": "Full time",
@@ -185,7 +185,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.ibb.co/c66g4kG/image-9.jpg",
+    "image": "https://i.ibb.co/CQ07FBt/9.jpg",
     "job_title": "Sales Manager",
     "company_name": "Sales Force Solutions Ltd.",
     "job_time": "Full time",
@@ -208,7 +208,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.ibb.co/ySHTsZt/image-10.jpg",
+    "image": "https://i.ibb.co/4KbBYny/10.jpg",
     "job_title": "Quality Assurance Analyst",
     "company_name": "QualityTech Inc.",
     "job_time": "Full time",

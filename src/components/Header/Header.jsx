@@ -51,7 +51,7 @@ const Header = () => {
         </div>
         <a className="btn btn-ghost text-2xl font-bold">
           <h1>
-            <span className="text-red-400"> Career</span>
+            <span className="text-sky-400"> Career</span>
             <span>Hub</span>
           </h1>
         </a>
