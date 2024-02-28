@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 const Featured = ({ job }) => {
   const {
+    id,
     image,
     job_title,
     company_name,
@@ -14,7 +15,7 @@ const Featured = ({ job }) => {
     salary,
   } = job;
   return (
-    <div className=" p-5  border">
+    <div className=" px-5 border">
       <img className=" w-40 " src={image} alt="" />
       <h1 className="font-bold text-2xl tracking-wide">{job_title}</h1>
       <h1 className="opacity-70">{company_name}</h1>
@@ -36,7 +37,7 @@ const Featured = ({ job }) => {
           <small>{salary}</small>
         </div>
       </div>
-      <Link>
+      <Link to={`/job/${id}`}>
         <button className="p-2 my-3 bg-sky-400 rounded">View Details</button>
       </Link>
     </div>
