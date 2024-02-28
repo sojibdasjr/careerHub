@@ -7,11 +7,16 @@ import { FaSquarePhone } from "react-icons/fa6";
 import { SiMinutemailer } from "react-icons/si";
 import { IoLocationSharp } from "react-icons/io5";
 import { HiBuildingOffice2 } from "react-icons/hi2";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const JobDeteails = () => {
   const jobs = useLoaderData();
   const { id } = useParams();
   const intId = parseInt(id);
   const job = jobs.find((job) => job.id === intId);
+
+  const notify = () => toast("You have applied successuflly");
 
   return (
     <div>
@@ -93,13 +98,17 @@ const JobDeteails = () => {
               </p>
             </span>
             <Link>
-              <button className="w-full p-2 focus:bg-sky-600 rounded  my-2 bg-sky-300">
+              <button
+                onClick={notify}
+                className="w-full p-2 focus:bg-sky-600 rounded  my-2 bg-sky-300"
+              >
                 Apply Now
               </button>
             </Link>
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
