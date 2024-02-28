@@ -6,6 +6,7 @@ import { SlCalender } from "react-icons/sl";
 import { FaSquarePhone } from "react-icons/fa6";
 import { SiMinutemailer } from "react-icons/si";
 import { IoLocationSharp } from "react-icons/io5";
+import { HiBuildingOffice2 } from "react-icons/hi2";
 const JobDeteails = () => {
   const jobs = useLoaderData();
   const { id } = useParams();
@@ -44,9 +45,17 @@ const JobDeteails = () => {
 
           {/* Job Apply */}
           <div className="bg-sky-100 md:px-5 px-2 rounded md:col-span-2">
-            <h1 className="font-bold my-2 border-b-2  py-4 border-sky-300 mx-auto">
-              Job Details
-            </h1>{" "}
+            <div className="flex justify-between items-center border-b-2 border-sky-300 mx-auto mb-2 pb-2">
+              <h1 className="font-bold my-2 ">Job Details</h1>
+              <img className="w-28 h-14 my-2" src={job.image} alt="" />
+            </div>
+            <span className="flex items-center  gap-2">
+              <HiBuildingOffice2 />{" "}
+              <p>
+                {" "}
+                <span className="font-bold">Company </span> : {job.company_name}{" "}
+              </p>
+            </span>
             <span className="flex items-center my-2 gap-2">
               <SlCalender />{" "}
               <p>
