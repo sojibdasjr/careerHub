@@ -16,7 +16,7 @@ const JobDeteails = () => {
   const intId = parseInt(id);
   const job = jobs.find((job) => job.id === intId);
 
-  const notify = () => toast("You have applied successuflly");
+  const notify = () => toast.success("You have applied successuflly");
 
   return (
     <div>
