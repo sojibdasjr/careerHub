@@ -9,6 +9,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { HiBuildingOffice2 } from "react-icons/hi2";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { saveJobApplication } from "../Utilitys/localStroage";
 
 const JobDeteails = () => {
   const jobs = useLoaderData();
@@ -16,7 +17,10 @@ const JobDeteails = () => {
   const intId = parseInt(id);
   const job = jobs.find((job) => job.id === intId);
 
-  const notify = () => toast.success("You have applied successuflly");
+  const handleApplyJob = () => {
+    saveJobApplication(intId);
+    toast.success("You have applied successuflly");
+  };
 
   return (
     <div>
@@ -99,7 +103,7 @@ const JobDeteails = () => {
             </span>
             <Link>
               <button
-                onClick={notify}
+                onClick={handleApplyJob}
                 className="w-full p-2 focus:bg-sky-600 rounded  my-2 bg-sky-300"
               >
                 Apply Now
